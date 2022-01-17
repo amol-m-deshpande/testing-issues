@@ -1,4 +1,12 @@
-blank_issues_enabled:true
-contact_links:
-  - name: Developer Playground 
-    
+name: Bug Report
+description: Report a bug you've found
+title: "[Bug]"
+labels: "bug"
+body:
+-type: markdown
+ attributes:
+  label: what happened?
+  description: Also tell us, what did you except to happen?
+  placeholder: Tell us what you see!
+  valodations:
+    required:true
